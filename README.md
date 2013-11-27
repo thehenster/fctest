@@ -1,11 +1,13 @@
 fctest
 ======
 
-== Run the tests
+Run the tests
+-------------
 
 rake test
 
-== Usage (from the project root.. it hasn't been gemified..)
+Usage (from the project root.. it hasn't been gemified..)
+----------------------------------------------------------
 
 ./bin/fctest 10
 
