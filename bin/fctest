@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/fctest"
+
+usage = "Usage: fctest {n}"
+
+unless ARGV[0]
+  puts usage
+  exit
+end
+
+puts Fctest::PrimeTable.new(ARGV[0]).table
